@@ -1,0 +1,28 @@
+# 1. Generated Data Folders (CRITICAL)
+# This prevents uploading gigabytes of processed trajectories
+savedData/
+savedDataAlpha/
+savedDataAlpha_legacy/
+savedDataGamma/
+
+# 2. MATLAB Data Files
+# Ignores all heavy data files anywhere in the project
+*.mat
+*.dat
+
+# 3. Claude Code Artifacts
+# Keeps your AI agent's internal memory out of the repo
+.claude/
+.claude.json
+.claude*
+
+# 4. MATLAB Temp & Backup Files
+# MATLAB automatically creates these when you edit code
+*.asv
+*.m~
+*.autosave
+
+# 5. OS Hidden Files
+# Stops Windows/Mac from adding junk files
+.DS_Store
+Thumbs.db
