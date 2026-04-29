@@ -11,6 +11,7 @@ savedDataGamma_AllStates/
 # Ignores all heavy data files anywhere in the project
 *.mat
 *.dat
+*.mp4
 
 # 3. Claude Code Artifacts
 # Keeps your AI agent's internal memory out of the repo
