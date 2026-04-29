@@ -4,6 +4,8 @@ savedData/
 savedDataAlpha/
 savedDataAlpha_legacy/
 savedDataGamma/
+savedDataAlpha_AllStates/
+savedDataGamma_AllStates/
 
 # 2. MATLAB Data Files
 # Ignores all heavy data files anywhere in the project

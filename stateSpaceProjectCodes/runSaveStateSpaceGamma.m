@@ -21,13 +21,13 @@ badTrialVersion = 'v8';
 stRange = [0.25 1.25];         % 1-second stimulus window
 gammaRange = [30 80];            % Bandpass filter for alpha
 targetFs = 250;                  % Downsample target (Nyquist-safe for 13 Hz)
-nPermutations = 1000;            % Parallel analysis permutations (use 1000 for final run)
+nPermutations = 100;            % Parallel analysis permutations (use 1000 for final run)
 
 % Protocols: EO1 (baseline) vs M1 (meditation) — both eyes-open
-protocolsToAnalyze = {'EO1', 'M1'};
+protocolsToAnalyze = {'EO1','G1', 'M2'};
 numProtocols = length(protocolsToAnalyze);
 
-saveFolderName = fullfile(fileparts(mfilename('fullpath')), 'savedDataGamma1000');
+saveFolderName = fullfile(fileparts(mfilename('fullpath')), 'savedDataGamma_AllStates');
 if ~exist(saveFolderName, 'dir'); mkdir(saveFolderName); end
 
 %% ========================= Load Subject Info ============================
